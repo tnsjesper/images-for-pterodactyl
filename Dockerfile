@@ -17,7 +17,8 @@ RUN         apt update -y \
 					fontconfig \
 					tzdata \
 					iproute2 \
-					libfreetype6
+					libfreetype6 \
+     					git
 
 ## Setup user and working directory
 RUN         useradd -m -d /home/container -s /bin/bash container
